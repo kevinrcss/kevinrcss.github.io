@@ -14,7 +14,7 @@
         border: 1px solid #F68686;
 }
 
-.contenedor-960 {
+.cont-prod-960 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 960px;
@@ -57,40 +57,24 @@ margin-right: 0;
 /* Grid >> 12 Columns
 ----------------------------------------------------------------------------------------------------*/
 /*usados*/
-/*columna contenedor izquierdo de la pagina productos y contactenos*/
-.contenedor-960 .grid_1 {
-	width:240px;
+/*columna contenedor izquierdo de la pagina productos*/
+.cont-prod-960 .grid_1 {
+	width:236px;
         min-height: 910px;
+        background-color:#fff; 
         margin-left: 10px;
         margin-right: 20px;
-        /*background-color:#FBF4EE;*/
-        background-color:#fff;
+       /* border: 1px solid #F4B4B4;*/
 }
-/*columna contenedor derecho de la pagina productos y contactenos*/
-.contenedor-960 .grid_2 {
+/*columna contenedor derecho de la pagina productos*/
+.cont-prod-960 .grid_2 {
 	width:680px;
         min-height: 910px;
         /*background-color:#FBF4EE;*/
         background-color:#fff;
         margin-left: 0px;
         margin-right: 10px;
-}
-/*columna contenedor izquierdode la pagina nosotros*/
-.contenedor-960 .grid_3 {
-	width:680px;
-        min-height: 310px;
-        /*background-color:#FBF4EE;*/
-        background-color:#fff;
-        margin-left: 10px;
-        margin-right: 20px;
-}
-.contenedor-960 .grid_10 {
-	width:240px;
-        min-height: 310px;
-        /*background-color:#FBF4EE;*/
-        background-color:#fff;
-        margin-left: 0px;
-        margin-right: 10px;
+        /*border: 1px solid #F4B4B4;*/
 }
 
 /*"margen derecho e izquierdo = 10 entonces: "10+280+10= 300 y 10+280+10= 300 = 600 "grid central"*/
@@ -101,7 +85,7 @@ margin-right: 0;
 /* contenedor de cada producto*/
 .contenedor-960 .grid_4 {
 	width:200px;
-        height: 364px;
+        height: 360px;
         background-color:#fafafa;
 }
 /*fin usados*/
@@ -125,7 +109,9 @@ margin-right: 0;
 	width:700px;
 }
 
-
+.contenedor-960 .grid_10 {
+	width:780px;
+}
 
 .contenedor-960 .grid_11 {
 	width:860px;
