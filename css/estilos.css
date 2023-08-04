@@ -1,0 +1,454 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline}
+/*http://micodigobeta.com.ar/?p=340*/ /*pagina de ayuda o referencia para centrar un div*/
+/*http://blog.innet.es/desarrollo-web/html/validar-formularios-con-html5/*/ /*validar formularios*/
+/*http://www.lewebmonster.com/metodos-para-realizar-animaciones-estandar-con-la-libreria-jquery-parte-2/ */ /*efecto de cambiar color y desvanecer div's
+                                                                                                            o algun otro elemento con jQuery'*/
+/*http://netbeans.org/kb/docs/web/html5-javascript-screencast.html?utm_source=netbeans&utm_campaign=welcomepage*/ /* Trabajar con javascript en html5*/
+/****Uso de la propiedad clear: both*/
+/*http://www.frogx3.com/2007/09/30/css-como-usar-el-float-y-el-clear-y-no-perder-la-cabeza/*/
+/*http://www.bufa.es/hr-clear/*/ 
+/*http://www.frogx3.com/ejemplos/clear_css.html*/
+
+
+/* PROPIEDADES GLOBALES ======================================================== */
+
+/***********
+MARGENES
+*************/
+/*---Superior---*/
+.m-superior10 {margin-top:10px}
+.m-superior20 {margin-top:20px}
+.m-superior30 {margin-top:30px}
+.m-superior40 {margin-top:40px}
+.m-superior50 {margin-top:50px}
+.m-superior60 {margin-top:60px}
+
+/*---Inferior---*/
+.m-inferior20 {margin-bottom: 20px}
+/*---Izquierdo---*/
+.m-izquierdo5 {margin-left: 5px}
+.m-izquierdo10 {margin-left: 10px}
+.m-izquierdo20 {margin-left: 20px}
+
+
+/***********
+PADDING
+*************/
+.p-izquierdo10 {padding-left:10px}
+.p-album {
+            padding-left: 60px;
+            padding-right: 60px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+               
+}
+/***********
+BORDES
+*************/
+
+.borde-google{
+    border:2px solid #FC3030;
+}
+/**************
+SEPARADORES
+*********************/
+hr {
+    border: 1px solid #FC3030;
+}
+/************************/
+.animales{
+    width:236px;
+    background: url(../images/fila-lateral.jpg)center top no-repeat #EEEEEE;
+    min-height: 1140px;
+}
+html {width:100%}
+header {
+	width:100%;
+	position:relative; 
+	z-index:0;
+}
+body {font-family:Arial, Helvetica, sans-serif; font-size:100%; color:#333; min-width:960px; background:#f1f1f1}
+.main {
+	width:960px; 	
+	padding:0;
+	margin:0 auto;
+	font-size:0.8125em;
+	line-height:1.3846em; 
+}
+
+.wrapper {width:100%; overflow:hidden; position:relative}
+/* CABECERA DE LA PAGINA ======================================================== */
+ .logo{
+ width: 100%;
+ height:160px; 
+ background:url(../images/logo.jpg) center center no-repeat;
+ overflow: hidden;
+}
+.cabecera {
+	width:100%;
+	height:160px;
+	background:url(../images/fondo-cabecera.jpg) center top repeat-x #fff;
+	overflow:hidden;
+}
+/* Menu Superior======================================================== */
+.menu-row {
+	width:100%;
+	background:url(../images/menu-fondo.jpg) center top repeat-x #E20000; /*imagen de fondo de los botones del menu*/
+}
+.menu-bg {
+	width:100%;
+	background:url(../images/menu-bg.jpg) center top no-repeat;
+}
+.menu {
+	padding:0 0 0 0; 
+	background:url(../images/menu-spacer.gif) left top no-repeat;
+        list-style:none;
+        margin-top: 0px;
+        margin-bottom: 0px;
+}
+.menu li {
+	float:left; 
+	position:relative;
+	background:url(../images/menu-spacer.gif) right top no-repeat;
+	padding-right:2px;
+}
+.menu li a {
+	font-family:"Century Gothic",Arial, Helvetica, sans-serif;
+	display:block; 
+	font-size:18px; 
+	line-height:48px;/*3.6em;*/ /* alto que ocupa el texto y asi le da el alto al menu*/
+	width:190px;
+	padding:0px 0 3px;
+	text-align:center;
+	color:#fff; 
+	text-transform:none; 
+	letter-spacing:0px;
+}
+.menu li a,
+.button,
+h1 a {text-decoration:none;}
+
+.menu li.active a,
+.menu > li > a:hover {color:#000} /*color de los link del menu al sobreponer el mouse o cursor*/
+
+/* Estilos links, listas , e.t.c ======================================================== */
+ a {color:#fff; outline:none;text-decoration:none; display:inline} /*color de los link*/
+ a:hover {text-decoration:none}
+ /************ESTILOS DE LOS CIRCULOS**********/
+/********************
+ *CAROUSEL *
+ ********************/
+.carousel-container {
+  position:relative;
+  width:960px;
+  margin:0 auto;
+}
+#carousel {
+  min-height:500px;
+  width:960px;
+  position:relative;
+}
+.carousel-image {
+  border:0;
+  display:block;
+}
+.carousel-feature {
+  position:absolute;
+  top:-1000px;
+  left:-1000px;
+  cursor:pointer;
+}
+/************FIN DE LOS ESTILOS DE LOS CIRCULOS**********/
+
+/* Social*/
+/*.social .facebook{ background: url(../images/facebook.png); }*/
+/* SOCIAL --------------------------------------------------------*/
+
+#social-holder{
+	overflow: hidden;
+	width: 960px;
+        margin-top: 10px;
+}
+.social{
+	display: block;
+	float: left;
+	overflow: hidden;
+	margin-left: 400px;
+}
+.social p{
+    float: left;
+    color: #666;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+.social li{
+	display: block;
+	width: 45px;
+	height: 30px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.social .facebook a{
+        background: url(../images/facebook.jpg);
+	display: block;
+	width: 45px;
+	height: 30px;
+	text-indent: -9000px;
+}
+.social .facebook a:hover {
+    background:url(../images/facebook-activo.jpg);
+}
+
+/*Cajas links de los productos enlaces*/
+.enlace a{
+	background-color:#FFF;
+    border:1px solid #c1c1c1;
+    color:#333;
+	float:left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+	height:34px;
+	line-height:34px;
+    text-align: center;
+    text-decoration:none;
+	width:180px;
+}
+.enlace a:hover{background-color:#F0F0F0; color:#000}
+/*Enlaces a mision y vision*/
+.mision-vision a{
+    float:left;
+    width:230px;
+    height:260px;
+    background:url(../images/vm.jpg) center center no-repeat #CCCCCC;
+}
+.mision-vision a:hover{background: url(../images/vm.jpg) center center no-repeat #e00000}
+/*Enlaces a nosotros desde mision y vision*/
+.nosotros a{
+    float:left;
+    width:230px;
+    height:260px;
+    background:url(../images/nosotros.jpg) center center no-repeat #CCCCCC;
+}
+.nosotros a:hover{background: url(../images/nosotros.jpg) center center no-repeat #e00000}
+
+/*Menu lateral de los productos */
+
+.menu-lateral{
+    width:220px;
+}
+/**** Categorias****/
+.menu-lateral li{
+    border-top: 1px solid #E7E7E7;
+}
+.menu-lateral li a{
+	display:block;
+         /*ancho del enlace de primer nivel*/
+        height: 30px;
+        font-family:Arial, Helvetica, Sans-serif; 
+	font-size:15px;
+	color:#666;
+	text-decoration:none;
+        padding: 8px 0 0px 4px;
+        margin-bottom: 0px;
+}
+.menu-lateral li a:hover{
+	color:#009700;/* verde*/
+}
+/***Sub-Categorias***/
+.menu-lateral li ul{
+	display:block;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.menu-lateral li ul li {
+    margin-left:10px;
+    border:none;
+    border-top: 1px solid #E7E7E7;/*borde superior segundo nivel*/
+}
+
+.menu-lateral  li ul li a{
+    padding: 10px 0 0px 10px;
+    display:block;
+    font-size: 12px;
+    color:#888;
+}
+/*.menu-lateral ul a{background-color:#6594D1;}*/
+.menu-lateral li ul li a:hover{
+	background-color:#FFF;
+	color:#E00000;
+	text-shadow:none;
+	border-left: 3px solid #E00000;
+}
+
+.menu-lateral li ul {display:none;}
+/* Texto ======================================================== */
+.texto-centrado {text-align: center}
+.texto-18 {margin-bottom:18px ; margin-top:18px}
+
+p {font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.rojo {color: #FC3030}
+.mi-texto p {
+	color: #4A4A4A;
+	font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 22px;
+}
+.p1 {margin-bottom:18px ;
+    margin-top:18px;
+    font-size:14px;
+    text-align:center;
+    font-family:'Ubuntu',Arial, Helvetica,sans-serif;
+    color:#fff;
+}
+.texto-pie1{margin-bottom:18px;
+    margin-top:38px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    text-align:center;
+    color:#B0B0B0;
+}
+.texto-pie2{margin-bottom:18px;
+    margin-top:18px;
+    font-size:12px;
+    text-align:center;
+    font-family:'Ubuntu',Arial, Helvetica,sans-serif;
+    color:#929292;
+}
+.p3 {font-family:"Open Sans",Arial, Helvetica, sans-serif;
+    font-size:12px;
+    text-align:center;
+    color:#fff;
+}
+
+.p5 {
+    float:left;
+    padding: 8px 10px 0 120px;
+    font-family:"Open Sans",Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color: #fff;
+}
+.p6 {margin-bottom:12px ; margin-top:20px;font-family:Arial, Helvetica, sans-serif;font-size:12px;text-align:center; font-color: #000}
+.p7 {margin-bottom:8px}p {font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#202020}
+
+/* CUERPO Y CONTENIDO ======================================================== */
+.texto_nosotros
+{
+	margin:auto;
+	padding: 10px 60px 30px 60px;
+}
+#inicio .cuerpo {
+    /*Envuelve todo desde la cabecera hasta el pie de pagina*/
+    width: 100%;
+    min-height:400px;
+    overflow:hidden;
+    background:url(../images/fondo-cuerpo.png) center top no-repeat;
+    position:relative;
+}
+#inicio #content {
+	width:100%; 
+	background:url(../images/fondo-cuerpo-x.png) center top repeat-x ;
+	padding:0;
+	position:relative;
+	z-index:1;
+}
+#inicio .rs{
+    background:url(../images/fondo-rs.jpg) center top no-repeat;
+    min-height: 100px;  
+}
+#pagina-blanco .banner-nosotros {
+    background:url(../images/nosotros_ovet.jpg) center top no-repeat;
+    min-height: 317px;
+}
+#pagina-blanco .banner-vision {
+    background:url(../images/vision-ovet.jpg) center top no-repeat;
+    min-height: 317px;
+}
+#pagina-blanco #content h2 { 
+    font-family: "Open Sans", sans-serif;
+	font-size:24px;
+	line-height:24px;
+    color:#067913;
+    margin-bottom:12px;
+    margin-top:18px;
+    letter-spacing:2px;
+    font-weight: normal;
+	} 
+/*Estilos para las paginas con contenido blanco*/
+#pagina-blanco #content {background:url(../images/centro-blanco-fondo.jpg) center top repeat-x #fff;}
+/* #pagina-blanco .cuerpo {background:url(../images/centro-blanco.jpg) center top no-repeat;} */
+#pagina-blanco .titulo-producto { margin-top:10px;font-size:16px;text-align:center;font-family:'Ubuntu',Arial,Helvetica,sans-serif;color:#232323}
+#pagina-blanco .subtitulo-producto {margin-bottom:10px ; margin-top:10px;font-family:Arial,Helvetica,sans-serif;font-size:12px;text-align:center;color:#555}
+#pagina-blanco {color:#222}
+#pagina-blanco h3 {font-size:18px;line-height:2em; color:#333;margin-bottom:3px; font-weight: normal}
+
+/* Estilos del Formulario ======================================================== */
+#formulario{}
+#formulario .input{background:#fff;padding:6px 18px;width:184px;height:18px;font:14px "Century Gothic", Arial, Helvetica, sans-serif;font-style:inherit;color:#b4b4b4}
+#formulario .input:focus{color:#696969}
+#formulario .wrapper{min-height:45px;display:block}
+#formulario select{
+    background:#000;
+    padding:6px 18px;
+    width:224px;
+    height:34px;
+    font:14px "Century Gothic", Arial, Helvetica, sans-serif;
+    font-style:inherit;
+    color:#b4b4b4
+}
+#formulario select:focus {color:#696969}
+#formulario option {background-color:#6E6E6E; color: #fff}
+
+#formulario a{
+    float:left;
+    width:230px;
+    height:40px;
+    background:url(../images/boton.png) center top no-repeat #EEF279;
+    line-height:36px;
+    color:#fff;
+    font-family:"Century Gothic", Arial, Helvetica;
+    font-weight:bold;
+    text-align:center;
+    text-decoration:none;
+}
+#formulario a:hover{background:#fff;color:#A4A4A4; border:1px solid #6E6E6E;}
+
+/* PAGINACION ======================================================== */
+.tabs {padding:10px}
+.tabs .tab-content {display:none; min-height: 810px} /*altura minima del contenedor de los cuadros de los productos*/
+.tabs ul.nav {float:right;padding-right:20px;padding-bottom:5px;padding-top: 5px}
+.tabs ul.nav li{padding-right:1px;float:left}
+.tabs ul.nav li a{
+display:block;
+border:1px solid #c1c1c1;
+position:relative;
+width:32px;
+height:32px;
+font-size:16px;
+color:#c1c1c1;
+line-height:32px;
+text-decoration:none;
+text-align:center;
+}
+.tabs ul.nav .selected a, .tabs ul.nav  a:hover{
+border:1px solid #222; 
+color:#222;
+}
+/* fin de estilos de la paginacion*/
+/* PIE DE PAGINA ======================================================== */
+footer {
+	width:100%; 
+	color:#999; /*color de letra o elementos del footer*/
+	position:relative;
+	overflow:hidden;
+}
+footer .wrapper {background:url(../images/footer-tail.gif) center top repeat;border-top: 1px solid #fff ;min-height:150px;height: auto !important; }
+html, body {height:100%}
+
